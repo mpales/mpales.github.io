@@ -11,24 +11,31 @@ body {
 }
 
 /* Header/logo Title */
-.bg {
-  padding: 200px;
-  background: url("../assets/Pales.jpg") no-repeat right;
-  background-size: 50%;
-  background-color: black;
-  color: white;
-  margin-bottom: 0;
+figure {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 20px;
+  align-items: center;
 }
-.bg figcaption {
+figure img {
+  display: inline-flex;
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 50%;
+}
+.head {
   font-size: 25px;
-  color: white;
 }
-figcaption span {
+.head span {
   font-size: 18px;
 }
 /* Style the top navigation bar */
 nav {
-  position: fixed;
+  position: sticky;
+  margin-bottom: 20px;
   top: 0;
   left: 0;
   width: 100%;
@@ -139,26 +146,29 @@ hr {
   height: 10px;
   width: 70%;
 }
-.bar40 {
+.bar60 {
   background: darkblue;
   border-radius: 10px;
   height: 10px;
-  width: 40%;
+  width: 60%;
 }
 
-.card-a img {
+.inside img {
   display: flex;
   max-width: 100%;
-  padding: 0;
+  padding: 10px;
   height: auto;
-  margin: auto;
+  margin: 10px auto;
 }
-figcaption {
+.inside img:hover {
+  background-color: white;
+}
+/* figcaption {
   text-align: center;
   margin: auto;
   width: 82%;
   padding: 10px;
-}
+} */
 .condesc {
   font-size: 15px;
   width: 100%;
@@ -171,16 +181,23 @@ figcaption {
   flex-wrap: wrap;
   padding: 20px;
   margin: auto;
+  justify-content: center;
+  line-height: 25px;
 }
+
 .caldesc {
-  width: 100%;
+  width: 98%;
   font-size: 17px;
   padding: 20px;
   margin: 0;
   background: #fff;
+
 }
 .caldesc b {
  color: blue;
+}
+.inside p {
+  text-decoration: none;
 }
 .flex-container-column {
   display: flex;
@@ -239,7 +256,7 @@ figcaption {
   border-radius: 10px;
   padding: 5px;
   margin: 20px auto auto auto;
-  width: 50%;
+  width: 45%;
 }
 
 .button:hover {
@@ -359,7 +376,7 @@ footer {
   background-color: #333;
   text-align: center;
 }
-.modal {
+/* .modal {
   display: none;
   position: fixed;
   z-index: 1;
@@ -405,7 +422,8 @@ footer {
   color: black;
   text-decoration: none;
   cursor: pointer;
-}
+} */
+
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 565px) {
   nav a {
@@ -417,18 +435,17 @@ footer {
     font-size: 10px;
     height: auto;
   }
-  .bg {
-    padding: 150px;
-    background-size: 100%;
-   }
-   .bg figcaption {
-     font-size: 14px;
-     text-align: left;
-     position: absolute;
-     left: 10px;
-   }
-  figcaption span {
-    display: none;
+  figure {
+    display: flex;
+    width: 90%;
+  }
+  figure img {
+    display: flex;
+    margin: 10px auto;
+    max-width: 70%;
+  }
+  .head {
+    margin: 15px auto;
   }
    .card, .inside {
      padding: 5px;
@@ -473,11 +490,17 @@ footer {
     }
   }
   @media screen and (max-width:755px) and (min-width:566px) {
-    .bg figcaption {
-      font-size: 18px;
+    figure {
+      display: flex;
+      width: 90%;
     }
-    figcaption span {
-      font-size: 15px;
+    figure img {
+      display: flex;
+      margin: 10px auto;
+      max-width: 70%;
+    }
+    .head {
+      margin: 15px auto;
     }
     .card-a  {
       flex: 100%;
