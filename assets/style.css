@@ -7,7 +7,7 @@
 body {
   font-family: 'Raleway', sans-serif;
   margin: 0;
-  width: 100%;
+  max-width: 99.5%;
 }
 
 /* Header/logo Title */
@@ -16,9 +16,10 @@ figure {
   flex-wrap: wrap;
   flex-direction: row-reverse;
   justify-content: space-between;
-  padding: 20px;
-  margin-top: 20px;
+  margin: 15px 0;
   align-items: center;
+  padding: 10px;
+  background-color: #F1F1F1;
 }
 figure img {
   display: inline-flex;
@@ -27,6 +28,7 @@ figure img {
   border-radius: 50%;
 }
 .head {
+  margin: auto;
   font-size: 25px;
 }
 .head span {
@@ -35,7 +37,7 @@ figure img {
 /* Style the top navigation bar */
 nav {
   position: sticky;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   top: 0;
   left: 0;
   width: 100%;
@@ -437,7 +439,7 @@ footer {
   }
   figure {
     display: flex;
-    width: 90%;
+    max-width: 100%;
   }
   figure img {
     display: flex;
@@ -446,6 +448,9 @@ footer {
   }
   .head {
     margin: 15px auto;
+  }
+  .head, .head span {
+	font-size: 15px;
   }
    .card, .inside {
      padding: 5px;
@@ -492,7 +497,7 @@ footer {
   @media screen and (max-width:755px) and (min-width:566px) {
     figure {
       display: flex;
-      width: 90%;
+	width: 100%;	
     }
     figure img {
       display: flex;
