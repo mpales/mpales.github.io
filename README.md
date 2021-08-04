@@ -1,2 +1,2 @@
-# mpales7.github.io
+# mpales.github.io
 web-portfolio
