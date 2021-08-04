@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Ubuntu:ital,wght@1,500&display=swap');
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -13,145 +14,146 @@ body {
 
 main {
   max-width: 1024px;
-  margin: 50px auto;
+  margin: 64px auto;
 }
 
 h1 {
-    text-align: center;
-    padding: 16px;
-    background-color:#1a3263; 
-    color: white;
-  }
- 
+  text-align: center;
+  padding: 16px;
+  color: #1a3263;
+  font-size: 48px;
+}
+
 .display h2 {
-    font-size: 36px;
-    text-align: right;
-    padding: 10px;
-  }
+  font-size: 36px;
+  text-align: right;
+  padding: 10px;
+}
 
 .flex-container-column {
-    display: flex;
-    flex-direction: column;
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: right;
-  }
-  
-  .flex-container-row {
-    display: flex;
-  }
-  
-  .button {
-    flex-basis: 25%;
-    font-size: 1.5em;
-    text-align: center;
-    padding: 20px 16px;
-    border: 2px solid white;
-    margin: 1px;
-    border-radius: 10%;
-    background-color: #ddd;
-    cursor: pointer;
-  }
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: right;
+}
 
-  div.double {
-    flex-basis: 50%;
-    color: white;
-  }
-  
-  .click {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    padding: 5px;
-    margin: auto;
-    text-align: center;
-  }
-  
-  .display {
-    color: white;
-    width: 100%;
-    padding: 5px;
-    background-color: #7f7f7f;
-    border-radius: 8px;
-    font-size: 1.5em;
-  }
-  
-  .operator,
-  .negative,
-  .equals {
-    background-color: #F0BC41;
-  }
+.flex-container-row {
+  display: flex;
+}
 
-  .button:hover {
-    font-weight: bold;
-    background-color: #d2d2d2;
-  }
+.button {
+  flex-basis: 25%;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 20px 16px;
+  border: 2px solid white;
+  margin: 1px;
+  border-radius: 10%;
+  background-color: #ddd;
+  cursor: pointer;
+}
 
-  .operator:hover,
-  .negative:hover,
-  .equals:hover {
-    background-color: #ecab13;
-  }
-  
-  .calcard {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
-    border: 2px solid #fafafa;
-    border-radius: 10px;
-    margin: 36px auto;
-    width: 50%;
-  }
-  
-  .history {
-    background-color: #fafafa;
-    width: 50%;
-    overflow: scroll;
-    margin: 20px auto;
-  }
-  
-  #clearhistory {
-    padding: 8px;
-    margin: 10px auto;
-    float: right;
-    cursor: pointer;
-    padding: 10px;
-    border: 0.5px solid grey;
-    border-radius: 8px;
-  }
+div.double {
+  flex-basis: 50%;
+}
 
-  #clearhistory:hover {
-    background-color: #1a3263;
-    color: white;
-  }
-  
-  .history h3 {
-    float: left;
-    border-radius: 8px;
-    padding: 15px;
-  }
-  
-  table {
-     border-collapse: collapse;
-     border-spacing: 0;
-     width: 100%;
-     border: 2px solid #ddd;
-     margin-bottom: 15px;
-  }
+.click {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 5px;
+  margin: auto;
+  text-align: center;
+}
 
-  th, td {
-     text-align: center;
-     padding: 16px;
-  }
-  th {
-     background-color: #F0BC41;
-     color: white;
-  }
-  tr:nth-child(even) {
-     background-color: #d2d2d2;
-  }
+.display {
+  color: white;
+  width: 100%;
+  padding: 5px;
+  background-color: #7f7f7f;
+  border-radius: 8px;
+  font-size: 1.5em;
+}
 
-  footer {
-    padding: 16px;
-    color: white;
-    background-color: #1a3263;
-    text-align: center;
-  }
+.operator,
+.negative,
+.equals {
+  background-color: #F0BC41;
+}
+
+.button:hover {
+  font-weight: bold;
+  background-color: #d2d2d2;
+}
+
+.operator:hover,
+.negative:hover,
+.equals:hover {
+  background-color: #ecab13;
+}
+
+.calcard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+  border: 2px solid #fafafa;
+  border-radius: 10px;
+  margin: 36px auto;
+  width: 50%;
+}
+
+.history {
+  background-color: #fafafa;
+  width: 50%;
+  overflow: scroll;
+  margin: 20px auto;
+}
+
+#clearhistory {
+  padding: 8px;
+  margin: 10px auto;
+  float: right;
+  cursor: pointer;
+  padding: 10px;
+  border: 0.5px solid grey;
+  border-radius: 8px;
+}
+
+#clearhistory:hover {
+  background-color: #1a3263;
+  color: white;
+}
+
+.history h3 {
+  float: left;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 2px solid #ddd;
+  margin-bottom: 15px;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 16px;
+}
+
+th {
+  background-color: #F0BC41;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #d2d2d2;
+}
+
+footer {
+  padding: 16px;
+  color: #1a3263;
+  text-align: center;
+}
