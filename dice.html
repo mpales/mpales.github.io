@@ -6,17 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Dice Roll</title>
     <link rel="stylesheet" href="css/dice.css" />
+    <link rel="shortcut icon" href="img/dice.svg" type="image/x-icon">
   </head>
   <body>
     <header>
       <h1>Roll the Dice</h1>
       <h2>🎲🎲🎲🎲🎲🎲🎲🎲🎲</h2>
     </header>
-    <section>
-      <h3>Player</h3>
-      <h3>Computer</h3>
-    </section>
-    <main class="dice">
+    <main>
+      <section>
+        <h3>Player</h3>
+        <h3>Computer</h3>
+      </section>
+      <div class="dice">
       <ol class="dice-list even-roll" data-roll="1" id="dice-1">
         <li class="dice-item" data-side="1">
           <span class="dot"></span>
@@ -87,7 +89,7 @@
           <span class="dot"></span>
         </li>
       </ol>
-    </main>
+    </div>
     <article>
       <section>
         <p class="pround">Total Win (Round): </p>
@@ -99,7 +101,8 @@
       </section>
     </article>
     <button id="roll-button">Roll Now</button>
-    <script src="./script.js"></script>
+    <script src="js/dice.js"></script>
+  </main>
     <footer>
       &copy Copyright 2020. All Rights Reserved 🎲Developed without Framework 🎲
     </footer>
