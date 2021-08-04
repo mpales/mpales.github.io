@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dice Roll</title>
+    <link rel="stylesheet" href="css/dice.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Roll the Dice</h1>
+      <h2>🎲🎲🎲🎲🎲🎲🎲🎲🎲</h2>
+    </header>
+    <section>
+      <h3>Player</h3>
+      <h3>Computer</h3>
+    </section>
+    <main class="dice">
+      <ol class="dice-list even-roll" data-roll="1" id="dice-1">
+        <li class="dice-item" data-side="1">
+          <span class="dot"></span>
+        </li>
+        <li class="dice-item" data-side="2">
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </li>
+        <li class="dice-item" data-side="3">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </li>
+        <li class="dice-item" data-side="4">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </li>
+        <li class="dice-item" data-side="5">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </li>
+        <li class="dice-item" data-side="6">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </li>
+      </ol>
+      <ol class="dice-list odd-roll" data-roll="1" id="dice-2">
+        <li class="dice-item" data-side="1">
+          <span class="dot"></span>
+        </li>
+        <li class="dice-item" data-side="2">
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </li>
+        <li class="dice-item" data-side="3">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </li>
+        <li class="dice-item" data-side="4">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </li>
+        <li class="dice-item" data-side="5">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </li>
+        <li class="dice-item" data-side="6">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </li>
+      </ol>
+    </main>
+    <article>
+      <section>
+        <p class="pround">Total Win (Round): </p>
+        <p class="pscore">Cummulative Score: </p>
+      </section>
+      <section>
+        <p class="cround">Total Win (Round): </p>
+        <p class="cscore">Cummulative Score: </p>
+      </section>
+    </article>
+    <button id="roll-button">Roll Now</button>
+    <script src="./script.js"></script>
+    <footer>
+      &copy Copyright 2020. All Rights Reserved 🎲Developed without Framework 🎲
+    </footer>
+  </body>
+</html>
