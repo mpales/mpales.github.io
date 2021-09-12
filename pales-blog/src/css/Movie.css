@@ -1,0 +1,78 @@
+.movie {
+  background: linear-gradient(90.06deg, rgba(7, 6, 19, 0.9) 0.04%, #02244B 99.94%);
+  margin-bottom: 0;
+  padding-bottom: 64px;
+}
+
+.list {
+  margin-bottom: 48px;
+}
+
+h2 {
+  margin-bottom: 12px;
+}
+
+.multiple-list {
+    display: flex;
+    justify-content: center;
+}
+
+.multiple-list img {
+    width: 200px;
+    height: auto;
+}
+
+.now {
+  text-align: center;
+}
+
+.now-swiper {
+  max-width: 600px;
+}
+
+.single-list img {
+  max-width: 600px;
+  height: auto;
+}
+
+.caption-now {
+  display: flex;
+  justify-content: space-around;
+  max-width: 600px;
+  background-color: #070613;
+  padding: 12px 8px;
+}
+
+.caption-now p {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 0 2px;
+}
+
+.title-now {
+  background-color: #0e0c27;
+  padding: 0 6px;
+  border-radius: 2px;
+}
+
+.caption-now p span {
+  color: #FFD700;
+ }
+
+.small {
+  font-size: 12px;
+}
+
+.swiper-button-prev {
+    background-image: url("../img/Left.svg") !important;
+    width: 32px;
+  }
+  
+  .swiper-button-next {
+    background-image: url("../img/Right.svg") !important;
+    width: 32px;
+  }
+
+  .swiper-button-next::after, .swiper-button-prev::after {
+    content: "";
+}

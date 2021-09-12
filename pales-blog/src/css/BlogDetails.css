@@ -1,0 +1,15 @@
+.blog-details h2 {
+    font-size: 32px;
+}
+
+.blog-details h2,
+.blog-details p {
+    margin-bottom: 8px;
+}
+
+.blog-details img {
+    max-width: 100%;
+    display: block;
+    padding: 16px;
+    margin: 16px auto;
+}

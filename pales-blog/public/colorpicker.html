@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Color Picker</title>
+    <link rel="stylesheet" href="css/picker.css">
+    <link rel="shortcut icon" href="color-picker.svg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Color Picker App</h1>
+        <h3>Discover beautiful colors and harmonies with Hex & RGB color codes</h3>
+    </header>
+    <main>
+        <section id="a"></section>
+        <section>
+            <ul>
+                <li class="red"></li>
+                <li class="green"></li>
+                <li class="blue"></li>
+            </ul>
+            <form>
+                <input type="range" id="red" min="0" max="255">
+                <input type="range" id="green" min="0" max="255">
+                <input type="range" id="blue" min="0" max="255">
+            </form>
+            <div class="container">
+                <article>
+                    <p id="rgb">RGB: 128, 128, 128</p>
+                    <figure>
+                        <img src="img/copy.svg" alt="">
+                        <span class="tooltip">Copy code</span>
+                    </figure>
+                </article>
+                <article>
+                    <p id="hex">Hex: #808080</p>
+                    <figure>
+                        <img src="img/copy.svg" alt="">
+                        <span class="tooltip">Copy Code</span>
+                    </figure>
+                </article>
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy Copyright 2020. All Rights Reserved | Developed without Framework.</p>
+    </footer>
+<script src="js/picker.js"></script>
+</body>
+</html>

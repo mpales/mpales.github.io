@@ -1,0 +1,122 @@
+{
+  "blogs": [
+    {
+      "title": "User Interface Automation Test with TestProject.io",
+      "img": "./testproject-banner.svg",
+      "imgThumb": "./testproject.svg",
+      "body": "Why do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.",
+      "date": "August 19, 2021",
+      "id": 1
+    },
+    {
+      "title": "Automate Your Docker Build using Jenkins Pipeline",
+      "img": "./jenkins-docker.svg",
+      "imgThumb": "./docker.svg",
+      "body": "Why do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.",
+      "date": "August 12, 2021",
+      "id": 2
+    },
+    {
+      "title": "Start Learning ReactJS in 2021? Why Not?",
+      "img": "./reactjs.svg",
+      "imgThumb": "./react.svg",
+      "body": "Why do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.",
+      "date": "July 27, 2021",
+      "id": 3
+    },
+    {
+      "title": "Jenkins: World Class Open Source Automation Server",
+      "img": "./jenkins-server.svg",
+      "imgThumb": "./jenkins.svg",
+      "body": "Why do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.",
+      "date": "July 16, 2021",
+      "id": 4
+    },
+    {
+      "title": "What The Heck Postman is?",
+      "img": "./postman-api.svg",
+      "imgThumb": "./postman.svg",
+      "body": "Why do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.",
+      "date": "June 30, 2021",
+      "id": 5
+    }
+  ],
+  "projects": [
+    {
+      "title": "MovCat",
+      "img": "a1",
+      "imgThumb": "./movie.svg",
+      "desc": "Movie Catalog made with React and TMDB API. You can find any Movie by simply using search feature.",
+      "id": 1,
+      "link": "movie",
+      "tags": [
+        {
+          "id": 11,
+          "name": "ReactJs"
+        },
+        {
+          "id": 12,
+          "name": "GlideJs"
+        },
+        {
+          "id": 13,
+          "name": "CSS"
+        }
+      ]
+    },
+    {
+      "title": "DiceJs",
+      "img": "b2",
+      "imgThumb": "./dice.svg",
+      "desc": "3D Roll Dice Game made with Vanilla Javascript. Let's Play and push your luck!",
+      "id": 2,
+      "link": "dice.html",
+      "tags": [
+        {
+          "id": 21,
+          "name": "Javascript"
+        },
+        {
+          "id": 22,
+          "name": "CSS"
+        }
+      ]
+    },
+    {
+      "title": "CalculateJs",
+      "img": "c3",
+      "imgThumb": "./calculator.svg",
+      "desc": "Calculator made with Vanilla Javascript. It can performs some simple operations, it also has Calculation History.",
+      "id": 3,
+      "link": "calculator.html",
+      "tags": [
+        {
+          "id": 31,
+          "name": "Javascript"
+        },
+        {
+          "id": 32,
+          "name": "CSS"
+        }
+      ]
+    },
+    {
+      "title": "ColorPickJs",
+      "img": "d4",
+      "imgThumb": "./color-picker.svg",
+      "desc": "Color Picker App made with Vanilla Javascript. Discover beautiful colors and harmonies with Hex & RGB codes.",
+      "id": 4,
+      "link": "colorpicker.html",
+      "tags": [
+        {
+          "id": 41,
+          "name": "Javascript"
+        },
+        {
+          "id": 42,
+          "name": "CSS"
+        }
+      ]
+    }
+  ]
+}
