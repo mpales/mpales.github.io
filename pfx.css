@@ -136,7 +136,7 @@ hr {
     margin: 8px auto;
 }
 
-.service-content, .steps-content {
+.service-content {
     display: grid;
     grid-template-columns: 300px 300px 300px;
     gap: 200px;
@@ -145,7 +145,7 @@ hr {
 }
 
 .service-content aside {
-    padding: 24px;
+    padding: 0 24px;
 }
 
 .service-content aside figure {
@@ -156,7 +156,7 @@ hr {
     margin-bottom: 24px;
 }
 
-.client, .service-content {
+.client, .service, .work {
     margin-bottom: 200px;
 }
 
@@ -186,7 +186,7 @@ hr {
     grid-template-columns: 272px 272px 272px;
     gap: 200px;
     justify-content: center;
-    margin: 80px auto;
+    margin-top: 80px;
 }
 
 .steps-content aside h4 {
@@ -198,11 +198,12 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 1340px;
+    height: 1200px;
 }
 
+
 footer article {
-    padding-top: 35%;
+    padding-top: 30%;
 }
 
 footer h2 {
