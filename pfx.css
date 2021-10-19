@@ -28,18 +28,18 @@
 nav {
     display: flex;
     justify-content: space-between;
-    padding-top: 32px;
+    padding: 16px 160px 80px 160px;
+    align-items: center;
+}
+
+nav figure {
+    display: flex;
 }
 
 .links {
     display: flex;
     justify-content: space-around;
     gap: 80px;
-    padding-right: 160px;
-}
-
-nav img {
-    padding: 0 0 56px 160px;
 }
 
 nav a {
