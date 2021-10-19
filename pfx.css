@@ -158,7 +158,7 @@ hr {
     padding: 24px 80px 24px 80px;
 }
 
-.client article p {
+.client article p, .steps article p {
     margin: 24px auto;
 }
 
